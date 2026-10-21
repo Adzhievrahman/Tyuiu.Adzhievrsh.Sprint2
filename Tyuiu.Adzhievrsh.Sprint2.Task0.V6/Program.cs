@@ -5,12 +5,12 @@ namespace Tyuiu.Adzhievrsh.Sprint2.Task0.V6
 {
     internal class Program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
             DataService ds = new DataService();
 
             Console.Title =
-                "Спринт #1 | Выполнил: Аджиев Р.Ш. | ИИП6-26-1";
+                "Спринт #2 | Выполнил: Аджиев Р.Ш. | ИИП6-26-1";
 
             Console.WriteLine(
                 "***************************************************************************");
