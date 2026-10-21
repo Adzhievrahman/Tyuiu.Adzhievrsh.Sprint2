@@ -1,9 +1,9 @@
 ﻿using System;
-using tyuiu.cources.programming.interfaces.Sprint1;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.Adzhievrsh.Sprint2.Task0.V6.Lib
 {
-    public class DataService : ISprint1Task2V6
+    public class DataService : ISprint2Task0V6
     {
         public double ConvertMToKm(int value)
         {
