@@ -12,7 +12,7 @@ namespace Tyuiu.Adzhievrsh.Sprint2.Task6.V5.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Шестёрка", ds.FindCardValue(6));
+            Assert.AreEqual("шестёрка", ds.FindCardValue(6));
         }
 
         [TestMethod]
@@ -20,7 +20,7 @@ namespace Tyuiu.Adzhievrsh.Sprint2.Task6.V5.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Валет", ds.FindCardValue(11));
+            Assert.AreEqual("валет", ds.FindCardValue(11));
         }
 
         [TestMethod]
@@ -28,7 +28,7 @@ namespace Tyuiu.Adzhievrsh.Sprint2.Task6.V5.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Дама", ds.FindCardValue(12));
+            Assert.AreEqual("дама", ds.FindCardValue(12));
         }
 
         [TestMethod]
@@ -36,7 +36,7 @@ namespace Tyuiu.Adzhievrsh.Sprint2.Task6.V5.Test
         {
             DataService ds = new DataService();
 
-            Assert.AreEqual("Туз", ds.FindCardValue(14));
+            Assert.AreEqual("туз", ds.FindCardValue(14));
         }
 
         [TestMethod]
